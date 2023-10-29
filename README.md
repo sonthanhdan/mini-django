@@ -10,6 +10,7 @@
 $ cd  user-service
 $ nvm install 18.17.1
 $ nvm use
+$ yarn install
 
 $ cd ..
 $ source venv/bin/activate
@@ -21,7 +22,7 @@ $ pip install -r requirements.txt
 # start express server
 $ yarn dev
 ```
-Open browser go to http://localhost:3000/api/users
+Open the browser and go to http://localhost:3000/api/users
 
 ```bash
 # start proxy server
@@ -35,7 +36,7 @@ $ python3 manage.py makemigrations
 $ python3 manage.py migrate
 $ python3 manage.py runserver
 ```
-Open browser go to http://localhost:8000/express-proxy/users
+Open the browser and go to http://localhost:8000/express-proxy/users
 
 ### Account Django Admin
 Go to the admin dashboard http://localhost:8000/admin/login/?next=/admin/ login with the account admin
